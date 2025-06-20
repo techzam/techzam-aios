@@ -1,0 +1,28 @@
+name: zynix_os
+description: A futuristic AI OS built with Flutter and Firebase.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.17.4
+  cloud_firestore: ^4.12.2
+  provider: ^6.1.2
+  speech_to_text: ^6.4.0
+  flutter_tts: ^4.0.2
+  animated_text_kit: ^4.2.2
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
