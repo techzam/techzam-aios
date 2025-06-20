@@ -6,11 +6,12 @@ android {
     compileSdkVersion 33
 
     defaultConfig {
-        applicationId "com.techzam.zynixos"
-        minSdkVersion 21
-        targetSdkVersion 33
-        versionCode 1
-        versionName "1.0"
+    applicationId "com.techzam.zynixos"
+    minSdkVersion 21
+    targetSdkVersion 33
+    versionCode 1
+    versionName "1.0"
+    multiDexEnabled true
     }
 
     buildTypes {
